@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>FokatCash - India's Trusted Cashback Site</title>
+    <link
+      rel="icon"
+      href="https://offers.fokatcash.com/assets/svg/fokat-rupee-brand-icon.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cashbackBox">
+      <header class="flex" aria-label="cashbackHeader">
+        <img
+          src="https://offers.fokatcash.com/Images/955839CE-D1E7-4BC2-86D7-3F8149255C49_4_5005_c.jpeg"
+          alt="freedom pack"
+        />
+        <h1>Get Rs.40 CashBack</h1>
+        <p><strong>in Your UPI ACCOUNT</strong></p>
+      </header>
+      <main>
+        <form id="cashbackForm" class="flex">
+          <div class="flex" style="width: 97%">
+            <label for="UPI" class="highlight">Enter Your UPI ID</label>
+
+            <div id="upi-id-input-box">
+              <img
+                src="https://offers.fokatcash.com/Images/926px-UPI-Logo-vector.svg.png"
+                alt="UPI"
+                width="50px"
+              />
+              <input
+                id="UPI"
+                type="text"
+                autocomplete="off"
+                placeholder="UPI ID"
+                required
+              />
+              <ol id="upiIDS" class="hide"></ol>
+            </div>
+            <p
+              style="color: red; align-self: flex-end"
+              class="hide"
+              id="invalidMSG"
+            >
+              Type a valid upi id
+            </p>
+          </div>
+          <div class="cashbackchecker">
+            <p id="slideMsg">SLIDE TO VERIFY >>></p>
+            <div id="progress">
+              <button id="coin">₹</button>
+            </div>
+          </div>
+          <button class="highlight hide" type="button" id="submitbtn">
+            Submit
+          </button>
+        </form>
+
+        <p class="important">
+          Important! This is Lifetime FREE Bajaj Demat Offer, Skip FnO Step &
+          Create Freedom Pack Account, Complete First Trade,<span
+            style="color: green"
+            >Cashback within 48 Hours</span
+          >
+        </p>
+
+        <div class="footer flex">
+          <h2 class="highlight" id="offerHeading">How to Avail Offer:</h2>
+          <ol class="flex offersList">
+            <li>
+              Enter your UPI ID Above ( Working ) & Click on Submit Button
+            </li>
+            <li>You Will Be Redirected To Merchant Website Or App</li>
+            <li>Open FREE Demat Account and Complete First Trade.</li>
+          </ol>
+          <p class="highlight offer">RS.40 Credited WOHOOOO!!!</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
